@@ -2,4 +2,5 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ReDi"
     id="id-d3d78be4cdb24f3495b918b3288ce8c7"
+    purpose="This model documents the architecture of the ReDi Rehabilitation Diary application.&#xD;&#xA;This application was created as a solution for keeping track of and aiding rehabilitation progress using a microservices architecture."
     version="5.0.0"/>
