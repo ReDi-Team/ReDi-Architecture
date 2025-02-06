@@ -2,11 +2,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '**model/diagrams/SketchModel_id-42fbb7f0aed84dd39a512d34f4481a67.xml' 
+      - 'model/diagrams/SketchModel_id-42fbb7f0aed84dd39a512d34f4481a67.xml' 
 
 jobs:
   archi_report:
-    if: contains(github.event.head_commit.message, '[CD]') # Run only if the latest commit contains '[CD]'
     permissions:
       contents: write
       pages: write
