@@ -21,7 +21,7 @@ jobs:
         with:
           archiHtmlReportEnabled: true
           archiJasperReportEnabled: true
-          archiJasperReportFormats: PDF,DOCX
-          archiCsvReportEnabled: true
+          archiJasperReportFormats: PDF,DOCX,PPTX
+          archiCsvReportEnabled: false
           archiExportModelEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
