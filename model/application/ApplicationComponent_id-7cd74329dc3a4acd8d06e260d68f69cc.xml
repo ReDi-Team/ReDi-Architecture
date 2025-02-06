@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Video storage service"
+    id="id-7cd74329dc3a4acd8d06e260d68f69cc"
+    documentation="Minio is an S3-compatible storage provider&#xD;&#xA;"/>
