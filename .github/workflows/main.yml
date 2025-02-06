@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - 'model/diagrams/SketchModel_id-42fbb7f0aed84dd39a512d34f4481a67.xml' 
+    branches:
+      - 'master'
 
 jobs:
   archi_report:
