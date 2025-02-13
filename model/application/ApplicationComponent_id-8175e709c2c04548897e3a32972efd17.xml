@@ -1,4 +1,4 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Authentication provider (authelia)"
-    id="id-43af92b59c624e889d6fc2ea88b434aa"/>
+    name="Load balancer (Nginx)"
+    id="id-8175e709c2c04548897e3a32972efd17"/>

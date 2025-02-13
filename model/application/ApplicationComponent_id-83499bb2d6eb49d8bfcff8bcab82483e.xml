@@ -1,5 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="REST API Gateway + Auth (Kong Gateway)"
+    name="REST API Gateway (NGINX Proxy Manager)"
     id="id-83499bb2d6eb49d8bfcff8bcab82483e"
     documentation="paired with external auth using https://github.com/aunkenlabs/kong-external-auth/"/>
