@@ -1,0 +1,26 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  archi_report:
+    permissions:
+      contents: write
+      pages: write
+    runs-on: ubuntu-latest
+    name: Deploy Archi report documents
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Deploy Archi report
+        id: archi
+        uses: WoozyMasta/archimate-ci-image@5.0.2-1.0.4
+        with:
+          archiHtmlReportEnabled: false
+          archiJasperReportEnabled: true
+          archiJasperReportFormats: PDF,DOCX,PPTX,HTML
+          archiCsvReportEnabled: true
+          archiExportModelEnabled: true
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_PAGES_BRANCH: 'jasper-reports'
