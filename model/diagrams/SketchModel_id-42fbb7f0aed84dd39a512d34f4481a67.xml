@@ -11,8 +11,8 @@
       textAlignment="1"
       fillColor="#ffffb5">
     <bounds
-        x="155"
-        y="92"
+        x="530"
+        y="60"
         width="135"
         height="70"/>
   </children>
@@ -24,8 +24,8 @@
       textAlignment="1"
       fillColor="#b5ffff">
     <bounds
-        x="482"
-        y="122"
+        x="729"
+        y="408"
         width="135"
         height="70"/>
   </children>
@@ -50,8 +50,8 @@
       textAlignment="1"
       fillColor="#ffc400">
     <bounds
-        x="204"
-        y="336"
+        x="289"
+        y="191"
         width="135"
         height="70"/>
   </children>
@@ -63,8 +63,8 @@
       textAlignment="1"
       fillColor="#ffff00">
     <bounds
-        x="552"
-        y="309"
+        x="36"
+        y="348"
         width="135"
         height="70"/>
   </children>
@@ -89,8 +89,8 @@
       textAlignment="1"
       fillColor="#7f7fff">
     <bounds
-        x="396"
-        y="528"
+        x="336"
+        y="339"
         width="135"
         height="70"/>
   </children>
@@ -101,8 +101,8 @@
       lineColor="#5c5c5c"
       textAlignment="1">
     <bounds
-        x="863"
-        y="505"
+        x="720"
+        y="516"
         width="135"
         height="70"/>
   </children>
